@@ -2,9 +2,8 @@
 
 import { Button } from "@/components/ui/button";
 import { Section } from "@/components/ui/section";
-import { ArrowDown, Mail, Github, Linkedin, Instagram } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Instagram } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export const HeroSection = () => {
@@ -27,9 +26,9 @@ export const HeroSection = () => {
       if (!isScrolledDown && 0 < scrollPosition) setIsScrolledDown(true);
       else setIsScrolledDown(false);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

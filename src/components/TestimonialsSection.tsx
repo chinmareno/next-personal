@@ -105,7 +105,7 @@ export const TestimonialsSection = () => {
             </div>
 
             <blockquote className="text-sm text-muted-foreground leading-relaxed italic">
-              "{testimonial.content}"
+              `&quot;`{testimonial.content}`&quot;`
             </blockquote>
           </Card>
         ))}

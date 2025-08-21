@@ -2,7 +2,7 @@ import { Section, SectionHeader } from "@/components/ui/section";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, ArrowRight } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 
 export const PortfolioSection = () => {
   const projects = [
@@ -39,6 +39,7 @@ export const PortfolioSection = () => {
           >
             <div className="grid lg:grid-cols-2 gap-0">
               <div className="relative overflow-hidden">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={project.image}
                   alt={project.title}

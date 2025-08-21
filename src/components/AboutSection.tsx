@@ -54,7 +54,7 @@ export const AboutSection = () => {
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <p className="text-lg text-foreground leading-relaxed">
-            I'm a full-stack developer with experience building web applications
+            I’m a full-stack developer with experience building web applications
             using modern JavaScript technologies. I enjoy creating intuitive
             user interfaces, implementing robust backend solutions, and
             continuously improving my skills to deliver quality solutions.
