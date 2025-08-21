@@ -22,7 +22,6 @@ export const HeroSection = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      console.log(scrollPosition === 0);
       if (!isScrolledDown && 0 < scrollPosition) setIsScrolledDown(true);
       else setIsScrolledDown(false);
     };
