@@ -31,7 +31,7 @@ export const SectionHeader = ({
 }: SectionHeaderProps) => {
   return (
     <div className={cn("text-center mb-16", className)}>
-      <h2 className="text-4xl md:text-5xl font-bold bg-primary bg-clip-text text-transparent mb-4">
+      <h2 className="text-4xl md:text-5xl font-bold bg-primary bg-clip-text text-primary mb-4">
         {title}
       </h2>
       {subtitle && (
