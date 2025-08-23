@@ -10,7 +10,7 @@ export const TestimonialsSection = () => {
       role: "CEO, TechStartup Inc.",
       company: "TechStartup Inc.",
       content:
-        "Alex delivered exceptional results on our e-commerce platform. The project was completed ahead of schedule and exceeded all performance expectations. His attention to detail and proactive communication made the entire process seamless.",
+        "chinmareno delivered exceptional results on our e-commerce platform. The project was completed ahead of schedule and exceeded all performance expectations. His attention to detail and proactive communication made the entire process seamless.",
       rating: 5,
       initials: "SJ",
     },
@@ -19,7 +19,7 @@ export const TestimonialsSection = () => {
       role: "Product Manager, InnovateCorp",
       company: "InnovateCorp",
       content:
-        "Working with Alex was a game-changer for our team. His technical expertise in React and Node.js helped us build a scalable solution that handles our growing user base efficiently. Highly recommend!",
+        "Working with chinmareno was a game-changer for our team. His technical expertise in React and Node.js helped us build a scalable solution that handles our growing user base efficiently. Highly recommend!",
       rating: 5,
       initials: "MC",
     },
@@ -28,7 +28,7 @@ export const TestimonialsSection = () => {
       role: "CTO, FinanceFlow",
       company: "FinanceFlow",
       content:
-        "Alex's full-stack development skills are outstanding. He transformed our legacy system into a modern, responsive application. The code quality is excellent and the performance improvements were remarkable.",
+        "chinmareno's full-stack development skills are outstanding. He transformed our legacy system into a modern, responsive application. The code quality is excellent and the performance improvements were remarkable.",
       rating: 5,
       initials: "ER",
     },
@@ -37,7 +37,7 @@ export const TestimonialsSection = () => {
       role: "Founder, RetailRevolution",
       company: "RetailRevolution",
       content:
-        "The analytics dashboard Alex built for us has revolutionized how we make business decisions. The real-time data visualization and intuitive interface have improved our operational efficiency significantly.",
+        "The analytics dashboard chinmareno built for us has revolutionized how we make business decisions. The real-time data visualization and intuitive interface have improved our operational efficiency significantly.",
       rating: 5,
       initials: "DT",
     },
@@ -46,7 +46,7 @@ export const TestimonialsSection = () => {
       role: "Operations Director, LogiFlow",
       company: "LogiFlow",
       content:
-        "Alex's ability to understand complex business requirements and translate them into technical solutions is impressive. The task management system he developed has streamlined our workflow tremendously.",
+        "chinmareno's ability to understand complex business requirements and translate them into technical solutions is impressive. The task management system he developed has streamlined our workflow tremendously.",
       rating: 5,
       initials: "LP",
     },
@@ -55,7 +55,7 @@ export const TestimonialsSection = () => {
       role: "VP Engineering, CloudTech",
       company: "CloudTech",
       content:
-        "Professional, reliable, and technically excellent. Alex delivered a high-quality microservices architecture that improved our system performance by 40%. His documentation and code quality are top-notch.",
+        "Professional, reliable, and technically excellent. chinmareno delivered a high-quality microservices architecture that improved our system performance by 40%. His documentation and code quality are top-notch.",
       rating: 5,
       initials: "RW",
     },

@@ -38,7 +38,7 @@ export const HeroSection = () => {
       <div className="text-center">
         <Image
           src="/myself.jpg"
-          alt="Alex Morgan - Full Stack Developer"
+          alt="chinmareno - Full Stack Developer"
           width={200}
           height={200}
           className="rounded-full aspect-square object-cover mb-8 mx-auto shadow-glow border-4 border-primary/20"
