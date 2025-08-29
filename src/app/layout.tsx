@@ -14,7 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "chinmareno | Software Engineer",
+  title: {
+    default: "chinmareno | Software Engineer",
+    template: "%s | chinmareno",
+  },
+
   description:
     "Fullstack JavaScript developer passionate about building modern web apps.",
   openGraph: {
@@ -23,6 +27,7 @@ export const metadata: Metadata = {
       "Fullstack JavaScript developer passionate about building modern web apps.",
     url: "https://chinmareno.vercel.app",
     siteName: "chinmareno",
+
     images: [
       {
         url: "/myself.jpg",
@@ -33,6 +38,21 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
+  keywords: [
+    "chinmareno",
+    "software engineer",
+    "fullstack developer",
+    "javascript developer",
+    "web developer",
+    "react developer",
+    "next.js developer",
+    "frontend developer",
+    "backend developer",
+    "portfolio",
+    "indonesia developer",
+    "tangerang developer",
+  ],
+
   twitter: {
     card: "summary_large_image",
     title: "chinmareno | Software Engineer",
@@ -45,6 +65,7 @@ export const metadata: Metadata = {
     shortcut: "/favicon.png",
     apple: "/favicon.png",
   },
+  category: "technology",
 };
 
 export default function RootLayout({
