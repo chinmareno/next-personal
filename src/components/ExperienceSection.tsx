@@ -3,107 +3,48 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, Building } from "lucide-react";
 
-export const ExperienceSection = () => {
-  const experiences = [
-    {
-      title: "Senior Full-Stack Developer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      type: "Full-time",
-      responsibilities: [
-        "Lead a team of 5 developers in building scalable web applications using React, Node.js, and AWS",
-        "Architected and implemented microservices infrastructure, reducing system latency by 40%",
-        "Mentored junior developers and established code review processes and best practices",
-        "Collaborated with product managers and designers to deliver user-centric solutions",
-        "Implemented CI/CD pipelines and automated testing, improving deployment efficiency by 60%",
-      ],
-      technologies: [
-        "React",
-        "Node.js",
-        "TypeScript",
-        "AWS",
-        "Docker",
-        "PostgreSQL",
-      ],
-    },
-    {
-      title: "Full-Stack Developer",
-      company: "StartupXYZ",
-      location: "Austin, TX",
-      period: "2020 - 2022",
-      type: "Full-time",
-      responsibilities: [
-        "Developed and maintained multiple client projects using modern web technologies",
-        "Built responsive web applications with React, Redux, and RESTful APIs",
-        "Optimized application performance and implemented SEO best practices",
-        "Worked directly with clients to gather requirements and provide technical solutions",
-        "Maintained 99.9% uptime for production applications serving 10k+ daily users",
-      ],
-      technologies: [
-        "React",
-        "Redux",
-        "Node.js",
-        "MongoDB",
-        "Express.js",
-        "JavaScript",
-      ],
-    },
-    {
-      title: "Frontend Developer",
-      company: "Digital Agency Pro",
-      location: "Remote",
-      period: "2019 - 2020",
-      type: "Full-time",
-      responsibilities: [
-        "Created pixel-perfect responsive websites from design mockups",
-        "Collaborated with UX/UI designers to implement interactive user interfaces",
-        "Optimized website performance and ensured cross-browser compatibility",
-        "Maintained and updated existing client websites using various CMS platforms",
-        "Participated in code reviews and contributed to development best practices",
-      ],
-      technologies: [
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "jQuery",
-        "Sass",
-        "WordPress",
-      ],
-    },
-    {
-      title: "Freelance Web Developer",
-      company: "Self-Employed",
-      location: "Remote",
-      period: "2018 - 2019",
-      type: "Freelance",
-      responsibilities: [
-        "Delivered custom web solutions for small businesses and startups",
-        "Managed complete project lifecycle from requirements to deployment",
-        "Built e-commerce websites with payment integration and inventory management",
-        "Provided ongoing maintenance and technical support for client projects",
-        "Achieved 100% client satisfaction rate with timely project delivery",
-      ],
-      technologies: [
-        "WordPress",
-        "PHP",
-        "MySQL",
-        "JavaScript",
-        "Bootstrap",
-        "WooCommerce",
-      ],
-    },
-  ];
+const experiences = [
+  {
+    title: "Full-Stack Web Development Bootcamp",
+    company: "Purwadhika (Bootcamp)",
+    location: "Remote",
+    period: "2025",
+    type: "Training",
+    responsibilities: [
+      "Completed intensive full-stack curriculum focused on JavaScript, React, Next.js, and Node.js",
+      "Built real-world projects including an e-commerce site, dashboard app, and developer portfolio",
+      "Collaborated in team projects simulating agile workflows (sprint planning, Git collaboration, code reviews)",
+      "Implemented authentication, REST APIs, and database integration",
+      "Deployed projects to Vercel and practiced CI/CD workflows",
+    ],
+    technologies: ["Next.js", "React", "Node.js", "Backendless", "TailwindCSS"],
+  },
+  {
+    title: "Portfolio Project – LESSEGOS Streetwear",
+    company: "Purwadhika (Bootcamp)",
+    location: "Remote",
+    period: "2025",
+    type: "Project",
+    responsibilities: [
+      "Developed a full-stack e-commerce platform for an Indonesian streetwear brand as part of bootcamp capstone",
+      "Implemented product catalog with filtering, pagination, and wishlist functionality",
+      "Built an article publishing system with login-based access control",
+      "Integrated Backendless for database, authentication, and APIs",
+      "Deployed on Vercel with a mobile-first, responsive design",
+    ],
+    technologies: ["Next.js", "TailwindCSS", "Backendless"],
+  },
+];
 
+export const ExperienceSection = () => {
   return (
     <Section id="experience" className="bg-muted/5">
       <SectionHeader
-        title="Professional Experience"
-        subtitle="My journey through different roles and the impact I've made along the way"
+        title="Experience & Projects"
+        subtitle="Bootcamp training, freelance work, and personal projects that showcase my growth as a developer"
       />
 
       <div className="relative">
-        {/* Timeline line */}
         <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-primary transform md:-translate-x-px" />
 
         <div className="space-y-12">
@@ -115,7 +56,6 @@ export const ExperienceSection = () => {
               } animate-fade-in`}
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              {/* Timeline dot */}
               <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-primary rounded-full transform -translate-x-2 md:-translate-x-2 z-10 animate-glow-pulse" />
 
               <div
@@ -181,7 +121,6 @@ export const ExperienceSection = () => {
                 </Card>
               </div>
 
-              {/* Spacer for alternating layout */}
               <div className="hidden md:block w-1/2" />
             </div>
           ))}
