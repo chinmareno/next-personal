@@ -17,22 +17,13 @@ const projects = [
       "Shadcn UI",
     ],
     description: `
-      LESSEGOS is a fast-growing Indonesian streetwear brand, but they had no website 
-      to showcase their identity or products. I designed and built a platform that gives 
-      them a strong online presence.
-
-      The site highlights their brand story, a clean product catalog with filters and 
-      pagination, and a community-driven articles section. Users can also log in to save 
-      favorites with a wishlist feature.
-
-      The result is a modern, mobile-first experience that makes the brand feel premium 
-      and accessible beyond marketplace platforms.
-    `,
+      LESSEGOS is a fast-growing Indonesian streetwear brand, but they had no website to showcase their identity or products. I designed and built a platform that gives them a strong online presence.
+      The site highlights their brand story, a clean product catalog with filters & pagination, and a community-driven articles section. Users can also log in to save favorites with a wishlist feature.
+      The result is a modern, mobile-first experience that makes the brand feel premium, and accessible beyond marketplace platforms.`,
     image: "/lessegos.jpg",
     liveUrl: "https://lessegos.vercel.app",
-    githubUrl: "#",
   },
-];
+] as const;
 
 export const PortfolioSection = () => {
   return (

@@ -56,9 +56,13 @@ export const HeroSection = () => {
         </h2>
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-          Building scalable and high-performance web solutions for your business
-          needs. Specializing in React, Node.js, and modern development
-          practices.
+          I build web apps that work and scale. I enjoy creating with React and
+          Node.js, exploring new technologies, and turning ideas into real
+          solutions.
+        </p>
+        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12">
+          <span className="font-semibold">Trilingual:</span> Indonesian,
+          English, and a bit of Chinese.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
