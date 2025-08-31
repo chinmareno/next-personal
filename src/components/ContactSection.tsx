@@ -83,7 +83,6 @@ export const ContactSection = () => {
       />
 
       <div className="grid lg:grid-cols-2 gap-12">
-        {/* Contact Form */}
         <Card className="p-8 bg-card border-border shadow-elegant">
           <h3 className="text-2xl font-bold mb-6 text-card-foreground">
             Send Message
@@ -173,7 +172,7 @@ export const ContactSection = () => {
 
             <Button
               type="submit"
-              className="w-full bg-primary hover:shadow-glow transition-all duration-300 py-3"
+              className="w-full bg-primary hover:shadow-glow transition-all duration-300 py-3 cursor-pointer"
             >
               <Send className="w-4 h-4 mr-2" />
               Send Message
@@ -181,7 +180,6 @@ export const ContactSection = () => {
           </form>
         </Card>
 
-        {/* Contact Information */}
         <div className="space-y-8">
           <div>
             <h3 className="text-2xl font-bold mb-6 text-foreground">

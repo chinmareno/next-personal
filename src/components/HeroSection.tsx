@@ -92,7 +92,6 @@ export const HeroSection = () => {
             <Instagram className="w-6 h-6 text-white" />
           </a>
 
-          {/* GitHub */}
           <a
             href="https://github.com/chinmareno"
             target="_blank"
@@ -103,7 +102,6 @@ export const HeroSection = () => {
             <Github className="w-6 h-6 text-white" />
           </a>
 
-          {/* LinkedIn */}
           <a
             href="https://www.linkedin.com/in/chin-mareno-792b80229/"
             target="_blank"
@@ -119,7 +117,6 @@ export const HeroSection = () => {
         )}
       </div>
 
-      {/* Gradient overlay for depth */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/50 pointer-events-none" />
     </Section>
   );
